@@ -1,0 +1,78 @@
+BASTC COMMANDS:
+*ls:> this command is used to list the files.
+*pwd:> this command is used to check present working directory.
+*git config --help:> this commmand is used to set git configuration values on a local level.
+*git --version:>this command is used to check version.
+*git init:> this command is to create empty local repository.
+*mkdir filename:> this command is used to create a new file.
+*cd filenema:> this commmad is used enter into the file.
+*git status:> this used to add and move the flie from working directory to staging to staging area.
+*git add filenema:> this is used to add move the files from working directory to staginfg area
+*git commit -m "content ":> this is used to show the result in one line 
+*git config global -- user.email:>>this used to link git to github
+REMOVING FILES:
+*vim filename:>> this uis used to create a new file
+*ls:>>this command is used to show the files in cd
+*git init:>> this is used to create empty local repository
+*git add:>>thus is used to add all the files into staging area
+*git status:>>this is used to check status
+*git commit -m:>>commiting files in first round
+*ls:>>to show all the files in staging area
+*git rm filename:>>remove files from only working directory
+BRANCHING:
+*mkdir filename:>>to create a new file
+*git init:>>this will create a empty local repository
+*touch filename:>>to create a file type
+*ls:>>to know weather the files is created or not
+*git add:>>to add the file into staging mode 
+*git commit -m "content":>>to commit a file
+*git branch:>>to view the branch
+*git status:>>we can also know which branch is active
+*git checkout branchname:>>switch from one branch to another branch
+*git checkout -b branchname:>>creating and switching to branch
+*git checkout master:>>to switch to the master branch
+*ls:>>to create the files
+*ls:>>to list the files from active branch 
+*git add filenmae:git commkit -m "filename":>>to add the file to a staging and commit mode
+*git ls -files:>>to know the commited file
+MERGING:
+*mkdir filename:> to create a new file
+*git init:> to create a empty local repository
+touch filename:> to create a file 
+*git log --oneline:>to know the commits done so far
+*git branch feature:>>to create a new branch
+*git branch:>to know the branches so far we created in folder
+*git checkot brabcname:>to switch to a feature branch
+*touch filename:>to create file in branch
+*git add:>to add the file to staging area
+*git add filename;git commit -m "filename":to add these files to staging and commit mode
+git log --online:>to know the commit done so far
+git add:>to add file to staging area
+*git commit:>to commit the files to commit mode
+*git log --oneline:>to know the commit
+*git checkout master:>switch to master branch
+*git branch:>to know the active branch
+*git merge featur:>to merge the feature branch to masyer branch
+*ls:>to know the total file in master branch
+*git log --oneline:>to know the commit in master branch
+*mkdir filename2:>to create another file for merging
+*git init:>to create empty local repository
+*touch filename:>to create a new file
+*git add filename;git commit -m "filename":>to add and commit the files to staging and commit mode
+*git log __oneline:>to know the commit done in master beanch
+*git branch feature:>to create files in feature branch
+*git filename:>to create files in featur branch
+*git checkout master:>to switch to master branch
+*git merge feature:>merge the featur branch to master branch
+*git log --oneline:>to know the commit in master branch
+CLONE:-
+*git clone:"paste the clone ur1"
+PUSH:-
+*git push origin mani
+PULL:-
+*git pull origin mani
+UNDO CHANGES:-
+*git checkout --filename.txt
+COLLABORATION:-
+  go to setting> click colladoration> enter your password>click on add people> write email address & select the valid emil> clik add this to repository
+
